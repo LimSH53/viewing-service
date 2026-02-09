@@ -1,12 +1,13 @@
-<template lang="">
+<template>
   <div>
     <h1>관극 기록</h1>
-    <p>관극 기록 리스트 화면</p>
+
+    <ViewingSearch />
+    <ViewingTable />
   </div>
 </template>
-<script setup>
 
+<script setup>
+import ViewingSearch from '../components/viewing/ViewingSearch.vue'
+import ViewingTable from '../components/viewing/ViewingTable.vue'
 </script>
-<style lang="">
-    
-</style>
